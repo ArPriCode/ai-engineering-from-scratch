@@ -1187,7 +1187,7 @@ Twitter/X is the #1 acquisition channel.
 | Platinum | $5,000 | Hero logo above the fold + one dedicated integration lesson, max 1 partner |
 
 Full rate card, hard rules, pricing anchors, and reach data: [SPONSORS.md](SPONSORS.md).
-Sign up via [GitHub Sponsors](https://github.com/sponsors/arunkumargiri).
+Sign up via [GitHub Sponsors](https://github.com/sponsors/ArPriCode).
 
 ```
 ░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
@@ -1209,7 +1209,7 @@ If this manual helped you, star the repo. It keeps the project alive.
 MIT. Use it however you want — fork it, teach it, sell it, ship it. Attribution appreciated,
 not required.
 
-Maintained by [Arun Kumar Giri](https://github.com/arunkumargiri) and the community.
+Maintained by [Arun Kumar Giri](https://github.com/ArPriCode) and the community.
 
 <sub>
   <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp;
