@@ -17,7 +17,7 @@ const ROADMAP_PATH = path.join(REPO_ROOT, 'ROADMAP.md');
 const GLOSSARY_PATH = path.join(REPO_ROOT, 'glossary', 'terms.md');
 const OUTPUT_PATH = path.join(__dirname, 'data.js');
 
-const GITHUB_BASE = 'https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/';
+const GITHUB_BASE = 'https://github.com/ArPriCode/ai-engineering-from-scratch/tree/main/';
 const SITE_ORIGIN = 'https://aiengineeringfromscratch.com';
 
 // GITHUB_BASE lesson url -> site path "phases/<phase>/<lesson>"
@@ -517,13 +517,13 @@ function writeSitemap(phases, glossaryCount) {
 
 // ─── llms.txt: a link-rich map of the curriculum for AI agents ───────────
 function writeLlms(phases, glossaryCount, artifactCount) {
-  const rawOrigin = 'https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/' + resolveRef();
+  const rawOrigin = 'https://raw.githubusercontent.com/ArPriCode/ai-engineering-from-scratch/' + resolveRef();
   let total = 0;
   phases.forEach(p => { total += p.lessons.filter(l => lessonPath(l.url)).length; });
   let out = `# AI Engineering from Scratch\n\n`;
   out += `> A free, open-source curriculum that builds every core AI algorithm by hand — ${total} lessons across ${phases.length} phases, from linear algebra to autonomous agents. Python, TypeScript, Rust, Julia.\n\n`;
   out += `Canonical site: ${SITE_ORIGIN}\n`;
-  out += `Source: https://github.com/rohitg00/ai-engineering-from-scratch\n`;
+  out += `Source: https://github.com/ArPriCode/ai-engineering-from-scratch\n`;
   out += `Glossary terms: ${glossaryCount} · Reusable outputs (prompts/skills/agents): ${artifactCount}\n\n`;
   out += `Lesson pages render client-side. Agents: fetch each lesson's raw markdown link; it is the full text. Lesson directories may also include code/ (runnable implementation) and quiz.json.\n\n`;
   for (const phase of phases) {
